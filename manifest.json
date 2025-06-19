@@ -13,10 +13,5 @@
             "js": ["content.js"],
             "runat": "document_idle"
         }
-    ],
-
-    "icons": {
-        "48": "icon48.png",
-        "128": "icon128.png"
-    }
+    ]
 }
