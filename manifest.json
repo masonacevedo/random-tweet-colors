@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Random color tweets",
+    "version": "1.0",
+    "description": "Colors tweets randomly",
+    "content_scripts": [
+        {
+            "matches" : ["*://twitter.com*",
+                        "*://x.com*",
+                        "*://mobile.twitter.com/*",
+                        "*://mobile.x.com/*"
+            ],
+            "js": ["content.js"],
+            "runat": "document_idle"
+        }
+    ],
+
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
