@@ -5,8 +5,8 @@
     "description": "Colors tweets randomly",
     "content_scripts": [
         {
-            "matches" : ["*://twitter.com*",
-                        "*://x.com*",
+            "matches" : ["*://twitter.com/*",
+                        "*://x.com/*",
                         "*://mobile.twitter.com/*",
                         "*://mobile.x.com/*"
             ],
